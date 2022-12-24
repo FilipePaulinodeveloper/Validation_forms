@@ -1,0 +1,64 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link href="../validando forms/css/style.css   "rel="stylesheet" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class="formulario-parametros d-flex justify-content-around  d-flex align-items-center "> 
+    <div class="formulario-fundor d-flex align-items-center  ">
+    
+        <form method="GET" class="validador">
+            <div class="area-form">
+               <h2>Criar conta</h2>
+           </div>
+
+            <h4>Digite seu nome</h4>
+            <input type="text" name="name" class="form-control form-control-lg" data-importante="required|min=2" >
+
+            <h4>Digite seu email</h4>
+            <input type="email" name="email" class="form-control form-control-lg"  data-importante="required|email">
+            
+            <h4>Digite sua senha</h4>
+            <input type="password" name="password" class="form-control form-control-lg"  data-importante="required|min=4" >
+        
+            <div class="d-grid gap-2">
+                <button class="btn btn-success btn-lg" type="submit">Criar conta</button>
+            </div>
+        </form> <!--form-->
+
+
+    
+  
+    
+    </div><!--background form-->    
+
+    <img class="logo " src="../validando forms/assets/images/logo-claro-1.png " >
+
+</div><!--container-->
+     
+   
+ 
+
+  
+     
+    <!-- <div  class=" logo-codfy-tech">
+        <img class="logo " src="../validando forms/assets/images/logo-claro-1.png " >
+        <img class="logo " src="../validando forms/assets/images/logo-claro-1.png " >
+    </div> -->
+     <!-- <div class="container d-flex align-items-center d-flex justify-content-center">
+    
+        <img class="logo " src="../validando forms/assets/images/logo-claro-1.png " >
+    
+     </div> -->
+    
+    <script type="text/javascript " src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript " src="assets/js/bootstrap.bundle.js"></script>
+    <script src="script.js"> </script> 
+</body>
+</html>

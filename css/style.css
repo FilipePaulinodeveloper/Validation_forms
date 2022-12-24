@@ -1,0 +1,73 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #3a4243;
+    /* background-image: url(../assets/images/logo-claro-1.png);
+    background-repeat: no-repeat;
+    background-position: center; */
+    
+
+}
+.formulario-parametros{
+    height: 100%;
+}
+
+.formulario-fundor{
+    
+    max-width: 500px;
+    width:  100%;
+    height: 100%;
+    background-color: #c3d742;
+    border: 2px solid #c3d742;
+}
+h2,h4{
+    color: rgb(255, 255, 255);
+}
+
+.logo{
+   
+ 
+   
+}
+
+.logo-codfy-tech{
+ display: flex;
+ align-items: center;
+ justify-content:space-between;
+}
+
+form,input{
+ 
+    text-align: center;
+    width: 100%;
+}
+
+h4 {
+
+    text-align: left;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+input,button{
+    
+    margin-top: 30px;
+}
+
+h2{ 
+    padding-bottom: 30px;
+    
+    font-size: 50px;
+}
+
+.error{
+    width: 100%;
+    height: auto;
+    border-radius: 10px ;
+    margin-top:10px;
+    font-size: 15px;
+    color: rgb(238, 238, 238);
+    background-color: #990d0d;
+    height: 20px;
+}
+
